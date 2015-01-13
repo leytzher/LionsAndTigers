@@ -26,8 +26,10 @@ class ViewController: UIViewController {
         myTiger.age = 3
         myTiger.image = UIImage(named: "BengalTiger.jpg")
         
-        println("My tiger name is \(myTiger.name), its age is \(myTiger.age), its breed is \(myTiger.breed) and its picture is \(myTiger.image)")
-        
+        myImageView.image = myTiger.image
+        nameLabel.text = myTiger.name
+        ageLabel.text = "\(myTiger.age)"
+        breedLabel.text = myTiger.breed
     }
 
     override func didReceiveMemoryWarning() {
