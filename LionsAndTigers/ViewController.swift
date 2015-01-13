@@ -30,6 +30,24 @@ class ViewController: UIViewController {
         nameLabel.text = myTiger.name
         ageLabel.text = "\(myTiger.age)"
         breedLabel.text = myTiger.breed
+        
+        var secondTiger = Tiger()
+        secondTiger.name = "Tigress"
+        secondTiger.breed = "Indo-Chinese Tiger"
+        secondTiger.age = 2
+        secondTiger.image = UIImage(named: "IndochineseTiger.jpg")
+        
+        var thirdTiger = Tiger()
+        thirdTiger.name = "Jacob"
+        thirdTiger.breed = "Malayan Tiger"
+        thirdTiger.age = 4
+        thirdTiger.image = UIImage(named: "MalayanTiger.jpg")
+        
+        var fourthTiger = Tiger()
+        fourthTiger.name = "Spar"
+        fourthTiger.breed = "Siberian Tiger"
+        fourthTiger.age = 5
+        fourthTiger.image = UIImage(named: "SiberianTiger.jpg")
     }
 
     override func didReceiveMemoryWarning() {
