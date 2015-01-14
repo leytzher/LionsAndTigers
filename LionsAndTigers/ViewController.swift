@@ -71,7 +71,8 @@ class ViewController: UIViewController {
         ageLabel.text = "\(myTigers[randomIndex].age)"
         breedLabel.text = myTigers[randomIndex].breed
         
-
+        UIView.transitionWithView(self.view, duration: 2, options: UIViewAnimationOptions.TransitionCrossDissolve, animations: {}, completion: {
+            (finished: Bool)->() in })
     }
 
 }
