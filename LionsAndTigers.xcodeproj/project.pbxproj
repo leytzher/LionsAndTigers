@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE1FC9FC1A68F3EF00FC6709 /* Lion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1FC9FB1A68F3EF00FC6709 /* Lion.swift */; };
 		CE3CC0161A64DC4000463DAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CC0151A64DC4000463DAA /* AppDelegate.swift */; };
 		CE3CC0181A64DC4000463DAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CC0171A64DC4000463DAA /* ViewController.swift */; };
 		CE3CC01B1A64DC4000463DAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3CC0191A64DC4000463DAA /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 		CE3CC0451A64E1C800463DAA /* Lioness.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CE3CC03D1A64E1C800463DAA /* Lioness.jpeg */; };
 		CE3CC0461A64E1C800463DAA /* MalayanTiger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE3CC03E1A64E1C800463DAA /* MalayanTiger.jpg */; };
 		CE3CC0471A64E1C800463DAA /* SiberianTiger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE3CC03F1A64E1C800463DAA /* SiberianTiger.jpg */; };
+		CEF4A8BD1A69417F0033F5E9 /* LionCub.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF4A8BC1A69417F0033F5E9 /* LionCub.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE1FC9FB1A68F3EF00FC6709 /* Lion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lion.swift; sourceTree = "<group>"; };
 		CE3CC0101A64DC3F00463DAA /* LionsAndTigers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LionsAndTigers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3CC0141A64DC4000463DAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE3CC0151A64DC4000463DAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +57,7 @@
 		CE3CC03D1A64E1C800463DAA /* Lioness.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lioness.jpeg; sourceTree = "<group>"; };
 		CE3CC03E1A64E1C800463DAA /* MalayanTiger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MalayanTiger.jpg; sourceTree = "<group>"; };
 		CE3CC03F1A64E1C800463DAA /* SiberianTiger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SiberianTiger.jpg; sourceTree = "<group>"; };
+		CEF4A8BC1A69417F0033F5E9 /* LionCub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LionCub.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				CE3CC0151A64DC4000463DAA /* AppDelegate.swift */,
 				CE3CC0171A64DC4000463DAA /* ViewController.swift */,
+				CEF4A8BC1A69417F0033F5E9 /* LionCub.swift */,
+				CE1FC9FB1A68F3EF00FC6709 /* Lion.swift */,
 				CE3CC0191A64DC4000463DAA /* Main.storyboard */,
 				CE3CC0351A64DF0B00463DAA /* Tiger.swift */,
 				CE3CC01C1A64DC4000463DAA /* Images.xcassets */,
@@ -258,6 +264,8 @@
 				CE3CC0181A64DC4000463DAA /* ViewController.swift in Sources */,
 				CE3CC0361A64DF0B00463DAA /* Tiger.swift in Sources */,
 				CE3CC0161A64DC4000463DAA /* AppDelegate.swift in Sources */,
+				CEF4A8BD1A69417F0033F5E9 /* LionCub.swift in Sources */,
+				CE1FC9FC1A68F3EF00FC6709 /* Lion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +459,7 @@
 				CE3CC0311A64DC4000463DAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE3CC0321A64DC4000463DAA /* Build configuration list for PBXNativeTarget "LionsAndTigersTests" */ = {
 			isa = XCConfigurationList;
@@ -459,6 +468,7 @@
 				CE3CC0341A64DC4000463DAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
